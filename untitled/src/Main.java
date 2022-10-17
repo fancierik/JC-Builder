@@ -11,7 +11,7 @@ public class Main {
                 .setName("Антошка")
                 .setAge(3)
                 .build();
-        System.out.println("У " + mom + " есть сын, " + son);
+        System.out.println(mom + " \n Eсть сын " + son);
 
         try {
             // Не хватает обязательных полей
