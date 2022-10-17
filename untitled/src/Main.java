@@ -2,13 +2,13 @@
 public class Main {
     public static void main(String[] args) {
         Person mom = new PersonBuilder()
-                .setName("Kate")
-                .setSurname("Smitt")
+                .setName("Анна")
+                .setSurname("Вольф")
                 .setAge(31)
-                .setAddress("NY")
+                .setAddress("Сидней")
                 .build();
         Person son = mom.newChildBuilder()
-                .setName("Mat")
+                .setName("Антошка")
                 .setAge(3)
                 .build();
         System.out.println(mom + " \n Eсть сын " + son);
